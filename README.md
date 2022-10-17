@@ -20,6 +20,9 @@ Nessa segunda etapa do desafio desafio, passamos o que tinhamos feito na <a href
 
 Tecnologias usadas nesse projeto:
 
+* HTML
+* CSS
+* TypeScript
 * Angular 
 
 ## Páginas  
