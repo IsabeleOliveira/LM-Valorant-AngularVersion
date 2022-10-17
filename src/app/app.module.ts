@@ -9,8 +9,12 @@ import { NoticiasComponent } from './features/components/noticias/noticias.compo
 import { AgentesComponent } from './features/components/agentes/agentes.component';
 import { SobreojogoComponent } from './features/components/sobreojogo/sobreojogo.component';
 import { FooterComponent } from './features/components/footer/footer.component';
-import { PagesComponent } from './features/pages/pages.component';
 import { LandingpageComponent } from './features/pages/landingpage/landingpage.component';
+import { LoginComponent } from './features/pages/login/login.component';
+import { CadastroComponent } from './features/pages/cadastro/cadastro.component';
+import { AcessibilitybarComponent } from './features/components/acessibilitybar/acessibilitybar.component';
+import { FormCadastroComponent } from './features/pages/cadastro/components/form-cadastro/form-cadastro.component';
+import { FormLoginComponent } from './features/pages/login/components/form-login/form-login.component';
 
 
 @NgModule({
@@ -22,8 +26,12 @@ import { LandingpageComponent } from './features/pages/landingpage/landingpage.c
     AgentesComponent,
     SobreojogoComponent,
     FooterComponent,
-    PagesComponent,
     LandingpageComponent,
+    LoginComponent,
+    CadastroComponent, 
+    AcessibilitybarComponent, 
+    FormCadastroComponent, 
+    FormLoginComponent,
   ],
   imports: [
     BrowserModule,
